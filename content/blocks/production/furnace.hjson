@@ -1,4 +1,4 @@
-type: multicraft.MultiCrafter
+type: multicrafter.MultiCrafter
 name: Furnace
 description: Smelts ores using coal as fuel.
 size: 2
