@@ -1,0 +1,43 @@
+type: multicraft.MultiCrafter
+name: Furnace
+description: Smelts ores using coal as fuel.
+size: 2
+alwaysUnlocked: true,
+category: crafting
+requirements: [
+  clay-brick/60
+],
+alwaysUnlocked: true
+
+recipes: [
+{
+  input: {
+  items: [
+    coal/3
+    beryllium/10
+  ]
+  }
+  output: {
+    items: [
+      oxide/10
+    ]
+  }
+  craftTime: 600
+  craftEffect: smeltsmoke
+}
+{
+  input: {
+  items: [
+    coal/3
+    scrap/10
+  ]
+  }
+  output: {
+    items: [
+      lead/5
+    ]
+  }
+  craftTime: 300.0
+  craftEffect: smeltsmoke
+}
+]
